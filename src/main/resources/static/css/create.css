@@ -1,0 +1,33 @@
+.list_create {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    margin-top: 10px;
+}
+.btn_create {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn_create2, .btn_create {
+    width: 70%;
+}
+
+.delete_product {
+    width: 17%;
+}
+
+.btn_id {
+    width: 40px;
+}
+
+.btn_id_delete {
+    width: 100%;
+}
