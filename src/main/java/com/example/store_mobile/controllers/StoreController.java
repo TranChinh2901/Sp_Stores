@@ -6,37 +6,37 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class StoreController {
-    @RequestMapping("products/home")
+    @RequestMapping("/home")
     public String home() {
         return "products/home";
     }
 
-    @RequestMapping("products/create")
+    @RequestMapping("create")
     public String create() {
         return "products/create";
     }
 
-    @RequestMapping("products/admin")
+    @RequestMapping("admin")
     public String admin() {
         return "products/admin";
     }
 
-    @RequestMapping("products/cart")
+    @RequestMapping("cart")
     public String cart() {
         return "products/cart";
     }
 
-    @RequestMapping("products/apple")
+    @RequestMapping("apple")
     public String apple() {
         return "products/apple";
     }
 
-    @RequestMapping("products/samsung")
+    @RequestMapping("samsung")
     public String samsung() {
         return "products/samsung";
     }
 
-    @RequestMapping("products/oppo")
+    @RequestMapping("oppo")
     public String oppo() {
         return "products/oppo";
     }
